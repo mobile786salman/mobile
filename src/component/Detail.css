@@ -1,0 +1,93 @@
+body{
+    text-transform: capitalize;
+    height: 100%;
+}
+
+.mainHead{
+    background-color: rgb(3, 85, 85);
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.serch{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 73, 73);  
+}
+.serchbtn{
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    background-color: aqua;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-evenly;
+    min-height: 79.6vh;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.display{
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0  rgb(10, 142, 190); 
+    padding: 15px;
+    font-size: 20px;
+    height: 350px;
+    width: 210px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-color: white;
+}
+
+.text{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 0px;
+    /* color: aqua; */
+    font-weight: lighter;
+    margin-left: 5px;
+}
+
+.textHead{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+button{
+    background-color: rgb(114, 255, 255);
+    border: 1px solid rgb(2, 67, 52);
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+img{
+    margin: 3px;
+    margin-left: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
